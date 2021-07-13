@@ -1,61 +1,65 @@
-193.120.199.15
-204.9.163.200
-212.161.8.36
-213.146.189.205
-91.190.216.26
-comtube.ru
-ekiga.net
-freecall.com
-globe7.com
-indafon.hu
-instantaudio.com
-internetcalls.com
-jajah.com
-justvoip.com
-keyyo.com
-keyyo.fr
-lingo.com
-livereceptionist.com
-my.three.com.au
-net2phone.com
-NetAppel.com
-netspeak.com
-nimbuzz.com
-pc080.net
-pda.turbocall.com
-peterzahlt.de
-p-group.cc
-poivy.com
-relay.voice.messenger.msn.com
-sipcall.ch
-SIPDiscount.com
-sipme.me
-skype.com
-skype.ekolay.net
-skype.net
-SparVoip.de
-spreed.com
-thepudding.com
-toky.co
-viber.com
-viva.gr
-voice2page.com
-voice.yahoo.com
-voipcheap.com
-voipdiscount.com
-voipraider.com
-voipstunt.com
-voip.uol.com.br
-webcalldirect.com
-webphone.com
-wegwerfnummer.de
-wengomeeting.com
-wengophone.com
-yoomba.com
-messenger.yahoo.com/feat_voice.php
-nl.smscity.com/voip/
-en.smscity.com/voip/
-axiatel.com/conference-call/
-www.3callback.com/webcall/
-www2.dasoertliche.de/?cmd=cmd_c4all&service=pre&c4allHost=http://ecs.c4all.net/ecs/
-phone.com/virtual-office/
+#_______________________________________________________________________
+#
+# category : Webphone
+#_______________________________________________________________________
+0.0.0.0 193.120.199.15
+0.0.0.0 204.9.163.200
+0.0.0.0 212.161.8.36
+0.0.0.0 213.146.189.205
+0.0.0.0 91.190.216.26
+0.0.0.0 comtube.ru
+0.0.0.0 ekiga.net
+0.0.0.0 freecall.com
+0.0.0.0 globe7.com
+0.0.0.0 indafon.hu
+0.0.0.0 instantaudio.com
+0.0.0.0 internetcalls.com
+0.0.0.0 jajah.com
+0.0.0.0 justvoip.com
+0.0.0.0 keyyo.com
+0.0.0.0 keyyo.fr
+0.0.0.0 lingo.com
+0.0.0.0 livereceptionist.com
+0.0.0.0 my.three.com.au
+0.0.0.0 net2phone.com
+0.0.0.0 NetAppel.com
+0.0.0.0 netspeak.com
+0.0.0.0 nimbuzz.com
+0.0.0.0 pc080.net
+0.0.0.0 pda.turbocall.com
+0.0.0.0 peterzahlt.de
+0.0.0.0 p-group.cc
+0.0.0.0 poivy.com
+0.0.0.0 relay.voice.messenger.msn.com
+0.0.0.0 sipcall.ch
+0.0.0.0 SIPDiscount.com
+0.0.0.0 sipme.me
+0.0.0.0 skype.com
+0.0.0.0 skype.ekolay.net
+0.0.0.0 skype.net
+0.0.0.0 SparVoip.de
+0.0.0.0 spreed.com
+0.0.0.0 thepudding.com
+0.0.0.0 toky.co
+0.0.0.0 viber.com
+0.0.0.0 viva.gr
+0.0.0.0 voice2page.com
+0.0.0.0 voice.yahoo.com
+0.0.0.0 voipcheap.com
+0.0.0.0 voipdiscount.com
+0.0.0.0 voipraider.com
+0.0.0.0 voipstunt.com
+0.0.0.0 voip.uol.com.br
+0.0.0.0 webcalldirect.com
+0.0.0.0 webphone.com
+0.0.0.0 wegwerfnummer.de
+0.0.0.0 wengomeeting.com
+0.0.0.0 wengophone.com
+0.0.0.0 yoomba.com
+0.0.0.0 messenger.yahoo.com/feat_voice.php
+0.0.0.0 nl.smscity.com/voip/
+0.0.0.0 en.smscity.com/voip/
+0.0.0.0 axiatel.com/conference-call/
+0.0.0.0 www.3callback.com/webcall/
+0.0.0.0 www2.dasoertliche.de/?cmd=cmd_c4all&service=pre&c4allHost=http://ecs.c4all.net/ecs/
+0.0.0.0 phone.com/virtual-office/
