@@ -1,0 +1,1209 @@
+#_________________________________________________________
+#
+# By FiRoe 
+#
+# Date : 13/07/2021 11:07:36
+#
+# Category : global_usage
+#_________________________________________________________
+0.0.0.0 #
+0.0.0.0 #       Franck Bourdonnec proposed a way to add descriptions for using
+0.0.0.0 #	blacklists in IPCop.
+0.0.0.0 #	UTF-8 is required to display the text properly!
+0.0.0.0 #	The proposed layout  is:
+0.0.0.0 #
+0.0.0.0 #       NAME :         name of tar blacklist
+0.0.0.0 #       DEFAULT_TYPE : what is the primary use of this blacklist 
+0.0.0.0 #                      (can be inverted, i.e. for webmail)
+0.0.0.0 #       SOURCE :       Url of the main provider of information
+0.0.0.0 #       NAME xx:       Short name used display in listbox, menu choice 
+0.0.0.0 #                      etc for xx Language
+0.0.0.0 #       DESC xx:       Description of the blacklist for xx Language
+0.0.0.0 #
+0.0.0.0 #       To add support for other languages please send mail to: 
+0.0.0.0 #       info (at) shalla.de
+0.0.0.0 #
+0.0.0.0 NAME:	adv
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE:	http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All about advertising: This includes sites offering banners and banner creation as well as sites delivering banners to be shown in webpages and advertising companies.
+0.0.0.0 DESC DE: Werbe- und Markeingseiten: Beinhaltet Seiten, die Werbebanner einblenden sowie auch Werbefirmen.
+0.0.0.0 DESC FR: Vente et de Publicité: comprend des côtés, les bannières publicitaires insérer ainsi qu'également entreprises publicitaires.
+0.0.0.0 DESC RU: Все о рекламе: услуги по созданию, продаже и резмещению баннеров, рекламные компании.
+0.0.0.0 NAME EN: Advertisements
+0.0.0.0 NAME DE: Werbung
+0.0.0.0 NAME FR: Annonces
+0.0.0.0 NAME IT: Pubblicità
+0.0.0.0 NAME NL: Reclame
+0.0.0.0 NAME PT: Propagandas
+0.0.0.0 NAME ES: Anuncios
+0.0.0.0 NAME RU: Реклама
+0.0.0.0 
+0.0.0.0 NAME:   aggressive
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites with aggressive content such as racism and hate speech.
+0.0.0.0 DESC DE: Agressive Inhalte wie Rassismus, Beleidungen, Hassreden.
+0.0.0.0 DESC FR: Quelques sites raçistes, antisémites, inçitant à la haine.
+0.0.0.0 DESC RU: Сайты, содержащие информацию насильственного характера, призывающие к расизму, ненависти.
+0.0.0.0 NAME EN: Aggressive
+0.0.0.0 NAME DE: Aggressiv
+0.0.0.0 NAME FR: Agréssif 
+0.0.0.0 NAME IT: Aggressività
+0.0.0.0 NAME NL: Aggressief 
+0.0.0.0 NAME PT: Aggressive
+0.0.0.0 NAME ES: Agresivo
+0.0.0.0 NAME RU: Насилие
+0.0.0.0 
+0.0.0.0 NAME:   alcohol
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of breweries, wineries and destilleries. This category also covers sites that explain how to make beer, wines and spirits.
+0.0.0.0 DESC DE: Seiten von Brauereien, Keltereien und Brennereien. Ebenso werden in dieser Kategorie Seiten aufgenommen, die erklären, wie man Alkohol herstellt.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты винных, пивоваренных заводов. Также в эту категорию включены сайты с рецептами по изготовлению пива, вина и спиртовых напитков.
+0.0.0.0 NAME EN: Alcohol
+0.0.0.0 NAME DE: Alkohol
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Alcol
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Алкоголь
+0.0.0.0 
+0.0.0.0 NAME:   anonvpn
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites providing vpn services to the public. The focus is on vpn sites used to hide the origin of the traffic, f.e. tor nodes.
+0.0.0.0 DESC DE: Seiten, die VPN Dienste anbieten (keine Firmen-VPNs). Es betrifft haupts?chlich Seiten, die den Ursprung der Kommunikation verschleiern wie z.B. Tor Knoten.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: 
+0.0.0.0 NAME EN: Anonymous VPN
+0.0.0.0 NAME DE: Anonymes VPN
+0.0.0.0 NAME FR: VPN anonyme
+0.0.0.0 NAME IT: VPN anonimo 
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES: VPN an?nimo
+0.0.0.0 NAME RU:  
+0.0.0.0 
+0.0.0.0 NAME:   automobile/cars
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All sites related to cars. Included are automobile companies and automotive suppliers.
+0.0.0.0 DESC DE: Rund um das Auto: Hersteller, Zulieferer, Reparaturen u.ä.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты об автомобилях, автопроизводители, автодилеры.
+0.0.0.0 NAME EN: Automobile/Cars
+0.0.0.0 NAME DE: Automobil/Autos
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Automobile/Automobili
+0.0.0.0 NAME NL: Automobil/Auto
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Автотранспорт/Автомобили
+0.0.0.0 
+0.0.0.0 NAME:   automobile/bikes
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All sites related to motorcycles. Included are vendor sites, resellers, fan and hobby pages as well as and suppliers. Scooters included.
+0.0.0.0 DESC DE: Rund um das Motorad: Hersteller, Zulieferer, Reparaturen u.ä.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о мототранспорте, скутерах, включая производителей, дилеров. Также в категорию включены ресурсы описаний, забавных историй владельцев и фанатов мототехники.
+0.0.0.0 NAME EN: Automobile/Bikes
+0.0.0.0 NAME DE: Automobil/Motorräder
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Automobile/Biciclette
+0.0.0.0 NAME NL: Automobil/Motorfiets 
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Автотранспорт/Мототехника
+0.0.0.0 
+0.0.0.0 NAME:   automobile/boats
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All sites related motorboats. Included are vendor sites, resellers, fan and hobby pages as well as and suppliers.
+0.0.0.0 DESC DE: Alles zur Thematik Motorboote; Bezug, Typen, Hersteller, Zulieferer, Wartung und Pflege.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о водном транспорте, судоходстве, включая производителей, дилеров. Также в категорию включены ресурсы описаний, забавных историй владельцев и фанатов водного транспорта.
+0.0.0.0 NAME EN: Automobil/Boats
+0.0.0.0 NAME DE: Automobil/Boote
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Automobile/Barche
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Автотранспорт/Водный транспорт
+0.0.0.0 
+0.0.0.0 NAME:   automobile/planes
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All sites related to planes ranging from small one and two seaters up to the large traffic planes, old and new, private, commercial and military. Vendors and supplier are included (airports are not). Helicopter sites are included as well.
+0.0.0.0 DESC DE:
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты, посвященные различному авиатранспорту, включая малые одноместные, большие пассажирские, частные, коммерческие, военные самолеты, вертолеты. Информация о производителях и поставщиках (аэропорты не включены). 
+0.0.0.0 NAME EN: Automobile/Planes
+0.0.0.0 NAME DE: Automobil/Flugzeuge
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Automobile/Aerei
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Автотранспорт/Авиатранспорт
+0.0.0.0 
+0.0.0.0 NAME:   chat
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Site for real-time chatting and instant messaging.
+0.0.0.0 DESC DE: Plaudern via Internet in Echtzeit.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты обмена сообщениями в реальном времени, чаты.
+0.0.0.0 NAME EN: Chat
+0.0.0.0 NAME DE: Chat
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Chat
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Чат
+0.0.0.0 
+0.0.0.0 NAME:   costtraps
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that lure with free of charge services but then give then give you a costly subscription (written somewhere in tiny letters nearly unreadable).
+0.0.0.0 DESC DE: Seiten mit undurchsichtiger Preisgestaltung: scheinbar kostenlose Dienste, die jedoch in einem kostenpflichtigen Abbonement enden (in kleinster Schrift unleserlich dargelegt).
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты, привлекающие бесплатными сервисами, но впоследствии взымающие оплату за подписку (о необходимости оплаты обычно указано в письме мелким незаметным шрифтом).
+0.0.0.0 NAME EN: Cost Traps
+0.0.0.0 NAME DE: Kostenfallen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Servizi Gratuiti Fittizzi
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Мошенничество
+0.0.0.0 
+0.0.0.0 NAME:   dating
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites to contact people for love and living together. He seeks her, she seeks him and so on.
+0.0.0.0 DESC DE: Kontaktbörsen für das Leben zu zweit.
+0.0.0.0 DESC FR: Sites de rencontres
+0.0.0.0 DESC RU: Сайты знакомств, обещния, поиск людей для создания отношений. Ищу парня, девушку и т.д.
+0.0.0.0 NAME EN: Dating
+0.0.0.0 NAME DE: Kontaktbörsen
+0.0.0.0 NAME FR: Rencontre
+0.0.0.0 NAME IT: Incontri
+0.0.0.0 NAME NL: Dating
+0.0.0.0 NAME PT: Dating
+0.0.0.0 NAME ES: Dating
+0.0.0.0 NAME RU: Знакомства, общение
+0.0.0.0 
+0.0.0.0 NAME:   downloads
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: This covers mostly filesharing, p2p and torrent sites. Other download sites (for software, wallpapers, ..) are included as well.
+0.0.0.0 DESC DE: Herunterladen von Software, Bilder, u.ä. sei es direkt oder über P2P/Torrent Seiten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, предоставляющие доступ к файлам, файлообменным сетям, торрентам. Включены сайты с архивами программ, обоев для рабочих столов.
+0.0.0.0 NAME EN: Downloads
+0.0.0.0 NAME DE: Downloads
+0.0.0.0 NAME FR: Téléchargements
+0.0.0.0 NAME IT: Downloads
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: Transferências
+0.0.0.0 NAME ES: Загрузка
+0.0.0.0 
+0.0.0.0 NAME:   drugs
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering drugs or explain how to make drugs. Covers alcohol and tobacco as well as viagra and similar substances.
+0.0.0.0 DESC DE: Seiten, die Drogen und Medikamente anbieten. Beinhaltet auch Alkohol, Zigaretten und Viagra, Cialis, etc.
+0.0.0.0 NAME EN: Drugs
+0.0.0.0 DESC RU: Сайты по продаже и изготовлению наркотических средств, алкогольных и тобачных изделий, подобные виагре препараты.
+0.0.0.0 NAME DE: Drogen
+0.0.0.0 NAME FR: Drogue
+0.0.0.0 NAME IT: Droghe
+0.0.0.0 NAME NL: Verdovende middelen
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Наркотики
+0.0.0.0 
+0.0.0.0 NAME:   dynamic
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All domains where people login obtaining a dynamic IP address.
+0.0.0.0 DESC DE: Domänen, die direkt dynamischen IP Bereichen zugeordnet sind; typischerweise die Zugänge von Endbenutzern.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Домены с динамическими IP-адресами
+0.0.0.0 NAME EN: Dynamic (Dialup) Addresses
+0.0.0.0 NAME DE: Dynamische Adressen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Indirizzi Dinamici
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Динамические ресурсы
+0.0.0.0 
+0.0.0.0 NAME:   education/schools
+0.0.0.0 DEFAULT_TYPE: black or white
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Home pages of schools, colleges and universities.
+0.0.0.0 DESC DE: Seiten von Schulen und Universitäten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты школ, университетов, институтов.
+0.0.0.0 NAME EN: Schools
+0.0.0.0 NAME DE: Schulen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Scuole, colleggi e università
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Образовательные учереждения
+0.0.0.0 
+0.0.0.0 NAME:   finance/banking
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Home page of banking companies are listed here. This is not restricted to online banking.
+0.0.0.0 DESC DE:
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Саты о банковских организациях, онлайн-платежах.
+0.0.0.0 NAME EN: Finance/Banking
+0.0.0.0 NAME DE: Finanzen/Banken
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Banche
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Банки
+0.0.0.0 
+0.0.0.0 NAME:   finance/insurance
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of insurance companies, information about insurances and link collections concering this subject.
+0.0.0.0 DESC DE: Alles zur Thematik Versicherungen und Versicherer.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты страховых компаний, информация о страховании, а также различные статьи по данной тематике.
+0.0.0.0 NAME EN: Finance/Insurance
+0.0.0.0 NAME DE: Finanzen/Versicherungen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Assicurazioni
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Страхование
+0.0.0.0 
+0.0.0.0 NAME:   finance/moneylending
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites one can apply for loans and mortgages or can obtain information about this business.
+0.0.0.0 DESC DE: Seiten, die sich speziell mit der Thematik Geldverleih und Kredite befassen, Kreditaufnahme und -abzahlung.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о кредитовании, займах, а также различные статьи по данной тематике.
+0.0.0.0 NAME EN: Finance/Moneylending
+0.0.0.0 NAME DE: Finanzen/Geldverleih
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Prestiti
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Кредитование
+0.0.0.0 
+0.0.0.0 NAME:   finance/other
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Finance in general.
+0.0.0.0 DESC DE: Seiten, die ganz allgemein mit Finanzen zu tun haben (Wechselkurse, Anlegertips u.ä.).
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о финансах.
+0.0.0.0 NAME EN: Finance/Other
+0.0.0.0 NAME DE: Finanzen/Allgemein
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Altro
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Другое
+0.0.0.0 
+0.0.0.0 NAME:   finance/realestate
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about all types of real estate, buying and selling homes, finding apartments for rent.
+0.0.0.0 DESC DE: Seite über alle Arten von Immobilien, Kauf und Verkauf von Wohnungen und Häusern, auch Mietmarkt.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о недвижимоси, покупке и продаже жилья, аренде помещений.
+0.0.0.0 NAME EN: Finance/Realestate
+0.0.0.0 NAME DE: Finanzen/Immobilien
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Appartamenti
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Недвижимость
+0.0.0.0 
+0.0.0.0 NAME:   finance/trading
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about and related to stock exchange.
+0.0.0.0 DESC DE: Seite über die Börse und den Börsenhandel (Aktien, Optionen usw.).
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты с информацией о фондовых биржах
+0.0.0.0 NAME EN: Finance/Trading
+0.0.0.0 NAME DE: Finanzen/Börse
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Finanza/Borsa
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Финансы/Торговля
+0.0.0.0 
+0.0.0.0 NAME:   fortunetelling
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All sites about astrology, horoscopes, numerology, palm reading and so on; sites that offer services to fortell the future.
+0.0.0.0 DESC DE: Seiten über Astrologie, Horoskope, Nummerologie, Handlesen usw.; Seiten, die Dienste bzgl. Wahrsagerei und der Zukunftsvorhersage anbieten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о гороскопах, астрологии, хиромантии, предсказаниях и т.д.
+0.0.0.0 NAME EN: Fortune telling
+0.0.0.0 NAME DE: Wahrsagerei
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Indovini
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES: 
+0.0.0.0 NAME RU: Гадание
+0.0.0.0 
+0.0.0.0 NAME:   forum
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Discussion sites. Covers explicit forum sites and some blogs. Sites where people can discuss and share information in a non interactive/real-time way.
+0.0.0.0 DESC DE: Forums- und Diskussionsseiten sowie teilweise auch Blogs. 
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты для обсуждений, форумы, блоги. Ресурсы, где можно обсудить или поделиться информацией в неинтерактивном режиме.
+0.0.0.0 NAME EN: Forum
+0.0.0.0 NAME DE: Foren
+0.0.0.0 NAME FR: Forum
+0.0.0.0 NAME IT: Forum
+0.0.0.0 NAME NL: Forum
+0.0.0.0 NAME PT: Forum
+0.0.0.0 NAME ES: Forum
+0.0.0.0 NAME RU: Форумы
+0.0.0.0 
+0.0.0.0 NAME:   gamble
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering the possibility to win money. Poker, Casino, Bingo and other chance games as well as betting sites.
+0.0.0.0 DESC DE: Glückspiel und Wett-Seiten.
+0.0.0.0 DESC FR: Sites de jeux en ligne, casino, etc.
+0.0.0.0 DESC RU: Ресурсы, предлагающие возможность выиграть деньги: покер, казино, бинго и другие азартные игры.
+0.0.0.0 NAME EN: Gambling/Casino
+0.0.0.0 NAME DE: Wetten/Glueckspiel 
+0.0.0.0 NAME FR: Jeux casino
+0.0.0.0 NAME IT: Gioco d'azzardo
+0.0.0.0 NAME NL: Gokken/Casinospelen
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Азартные игры
+0.0.0.0 
+0.0.0.0 NAME:   government
+0.0.0.0 DEFAULT_TYPE: black or white
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites belonging to the government of a country, county or city.
+0.0.0.0 DESC DE: Behördenseiten.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты, принадлежащие правительству стран, округов и городов.
+0.0.0.0 NAME EN: Government
+0.0.0.0 NAME DE: Behörden
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Governo
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Правительство
+0.0.0.0 
+0.0.0.0 NAME:   hacking
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites with information and discussions about security weaknesses and how to exploit them. Sites offering exploits are listed as well as sites distributing programs that help to find security leaks.
+0.0.0.0 DESC DE: Informationen über Sicherheitsschwächen und wie man sie ausnutzt. Seiten, die Programme zum Ausnutzen von Sicherheitsschwächen bieten.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты с описанием и обсуждением использования уязвимостей компьютерных систем, программы для обнаружения и использования известных уязвимостей.
+0.0.0.0 NAME EN: Hacking
+0.0.0.0 NAME DE: Hacking
+0.0.0.0 NAME FR: Hacking
+0.0.0.0 NAME IT: Hacking
+0.0.0.0 NAME NL: Hacking
+0.0.0.0 NAME PT: Hacking
+0.0.0.0 NAME ES: Hacking
+0.0.0.0 NAME RU: Взлом информационных систем
+0.0.0.0 
+0.0.0.0 NAME:   hobby/cooking
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites concerning food and food preparation.
+0.0.0.0 DESC DE: Seiten über Nahrungsmittel und ihre Zubereitung.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о еде и ее приготовлении.
+0.0.0.0 NAME EN: Hobby/Cooking
+0.0.0.0 NAME DE: Hobby/Kochen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hobby/Cucina
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Хобби/Приготовление
+0.0.0.0 
+0.0.0.0 NAME:   hobby/games-misc
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites related to games. This includes descriptions, news and general information about games. No gambling sites.
+0.0.0.0 DESC DE: Seiten über Beschreibeungen, Neuigkeiten und allgemeinen Informationen zu Spielen ohne Geldeinsatz (keine Wetten).
+0.0.0.0 DESC FR: Sites de distributions de jeux.
+0.0.0.0 DESC RU: Сайты об играх, включая описание, новости, общую информацию. Азартные игры не включены.
+0.0.0.0 NAME EN: Hobby/Games
+0.0.0.0 NAME DE: Hobby/Spiele
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hobby/Giochi Generici
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: Passatempo/Jogos
+0.0.0.0 NAME ES: Manía/Juegos
+0.0.0.0 NAME RU: Хобби/Игры-Общее
+0.0.0.0 
+0.0.0.0 NAME:   hobby/games-online
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about online games. The games are for fun only (no gambling).
+0.0.0.0 DESC DE: Seiten, die Online-Spiele (flash u.ä.) ohne Geldeinsatz (keine Eetten) anbieten. Spiele zum reinen Spass.
+0.0.0.0 DESC FR: Sites de jeux, en ligne.
+0.0.0.0 DESC RU: Сайты с забавными онлайн играми. Азартные игры не включены.
+0.0.0.0 NAME EN: Hobby/Online-Games
+0.0.0.0 NAME DE: Hobby/Online-Spiele
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hobby/Giochi Online
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: Passatempo/Jogos-Online
+0.0.0.0 NAME ES: Manía/Juegos-Online
+0.0.0.0 NAME RU: Хобби/Игры-онлайн
+0.0.0.0 
+0.0.0.0 NAME:   hobby/gardening
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about gardening, growing plants, fighting bugs and everything related to gardening.
+0.0.0.0 DESC DE: Seiten über das Gärtnern, wie man Pflanzenn züchtet, Ungeziefer bekämft und alle mit dem Thema Gärtnern verwandten Themen.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты о садоводстве, уходу за растениями, защите от насекомых и т.д.
+0.0.0.0 NAME EN: Hobby/Gardening
+0.0.0.0 NAME DE: Hobby/Gärtnern
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hobby/Giardinaggio
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Хобби/Садоводство
+0.0.0.0 
+0.0.0.0 NAME:   hobby/pets
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All topics concerning pets: description, breed, food, looks, fairs, favorite pet stories and so on.
+0.0.0.0 DESC DE: Seiten über Haustiere, Haustierhaltung, Pflegetips, etc.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о домашних животных: кормление, уход, разведение, птичьи рынки, историиии о животных и т.д.
+0.0.0.0 NAME EN: Hobby/Pets
+0.0.0.0 NAME DE: Hobby/Haustiere
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hobby/Animali
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Хобби/Домашние животные
+0.0.0.0 
+0.0.0.0 NAME:   homestyle
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about everything need to create a cozy home (interior design and accessories).
+0.0.0.0 DESC DE: Seiten bzgl. Inneneinrichtungen; alles, was ein Heim heimelig und angenehm macht.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о создании домашнего интерьера, дизайна.
+0.0.0.0 NAME EN: Homestyle
+0.0.0.0 NAME DE: Schöner Wohnen
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Arredamenti Casa
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Домашний интерьер
+0.0.0.0 
+0.0.0.0 NAME:   hospitals
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of hospitals and medical facilities.
+0.0.0.0 DESC DE: Seiten von Krankenhäusern und medizinischen Einrichtungen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о медицинских учереждениях и медицинском оборудовании.
+0.0.0.0 NAME EN: Hospitals
+0.0.0.0 NAME DE: Krankenhäuser
+0.0.0.0 NAME FR: Hôpitaux
+0.0.0.0 NAME IT: Ospedali
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: Hospitais
+0.0.0.0 NAME ES: Hospitales
+0.0.0.0 NAME RU: Медицинские учереждения
+0.0.0.0 
+0.0.0.0 NAME:   imagehosting
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites specialized on hosting images, photo galleries and so on.
+0.0.0.0 DESC DE: Seiten, die insbesondere alle Arten von Bildern und Graphiken hosten, auch Photogallerien und ähnliches.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты для размещения фотогалерей, картинок и т.д.
+0.0.0.0 NAME EN: Imagehosting
+0.0.0.0 NAME DE: Bildergalerien
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Hosting Immagini
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES: 
+0.0.0.0 NAME RU: Фотогалереи
+0.0.0.0 
+0.0.0.0 NAME:   isp
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Home pages of Internet Service Providers. Sites of companies offering webspace only are now being added, too
+0.0.0.0 DESC DE: Seiten von Internet Service Providern; beinhaltet auch Seiten von reinen Webspaceanbietern.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Домашние сайты интернет-провайдеров. Также добавлены сайты компаний, предлагающие только услуги предоставления веб-пространства.
+0.0.0.0 NAME EN: Internet Service Provider
+0.0.0.0 NAME DE: Internet Service Provider
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Provider Internet
+0.0.0.0 NAME NL: Internet Service Provider
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Интернет-провайдеры
+0.0.0.0 
+0.0.0.0 NAME:   jobsearch
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Portals for job offers and job seekers as well as the career and work-for-us pages of companies.
+0.0.0.0 DESC DE: Arbeitsportale für Arbeitssuchende und Arbeitgeber. Beinhaltet auch Karriereberatungen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы для работодателей и соискателей.
+0.0.0.0 NAME EN: Jobsearch
+0.0.0.0 NAME DE: Arbeitssuche
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Ricerca Lavoro
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Поиск работы
+0.0.0.0 
+0.0.0.0 NAME:   library
+0.0.0.0 DEFAULT_TYPE: black or white
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Online libraries and sites where you can read e-books.
+0.0.0.0 DESC DE: Online Bibliotheken und Seiten zum Lesen von Büchern (e-books).
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты онлайн-библиотек и электронных книг.
+0.0.0.0 NAME EN: Library
+0.0.0.0 NAME DE: Bibliotheken
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Biblioteca
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: Biblioteca
+0.0.0.0 NAME ES: Biblioteca
+0.0.0.0 NAME RU: Онлайн-библиотеки
+0.0.0.0 
+0.0.0.0 NAME:   military
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of military facilities or related to the armed forces.
+0.0.0.0 DESC DE: Seiten militärischer Einrichtungen bzw. jene, die mit der Armee im Zusammenhang stehen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о вооруженных силах, военных объектах.
+0.0.0.0 NAME EN: Military
+0.0.0.0 NAME DE: Militär
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Militari
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Вооруженные силы
+0.0.0.0 
+0.0.0.0 NAME:   models
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Model agency, model and supermodel fan pages and other model sites presenting model photos. No porn pictures.
+0.0.0.0 DESC DE: Modelagenturen, Modelle und Supermodels. Beinhaltet Fanseiten ebenso, wie Bilder mit Models. Keine Pornographie.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Модельные агенства, страницы супермоделей и другие сайты, размещающие фотографии моделей. Без порнографии.
+0.0.0.0 NAME EN: Models
+0.0.0.0 NAME DE: Models
+0.0.0.0 NAME FR: Models
+0.0.0.0 NAME IT: Modelle
+0.0.0.0 NAME NL: Models
+0.0.0.0 NAME PT: Models
+0.0.0.0 NAME ES: Models
+0.0.0.0 NAME RU: Модели
+0.0.0.0 
+0.0.0.0 NAME:   movies
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering cinema programs, information about movies and actors. Sites for downloading video clips/movies (as long as it is legal) are included as well.
+0.0.0.0 DESC DE: Kinoprogramme und Informationen über Filme und Darsteller. Laden von Video Clips und Filmen (solange dies legal ist).
+0.0.0.0 DESC FR: Quelques sites orientés vers la vidéo.
+0.0.0.0 DESC RU: Сайты кинотеатров, описание фильмов и актеров. Также включена загрузка незапрещенных видеороликов, клипов.
+0.0.0.0 NAME EN: Movies and Videos
+0.0.0.0 NAME DE: Filme
+0.0.0.0 NAME FR: Vidéo
+0.0.0.0 NAME IT:
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Фильмы
+0.0.0.0 
+0.0.0.0 NAME:   music
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that offer the download of music, information about music groups or music in general.
+0.0.0.0 DESC DE: Musik zum Download, Informationen zu Musik und Musikgruppen, Musik im allgemeinen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты с информацией о музыкальных жанрах, группах, коллективах и т.д. Загрузка музыкальных файлов.
+0.0.0.0 NAME EN: Music
+0.0.0.0 NAME DE: Musik
+0.0.0.0 NAME FR: Musique
+0.0.0.0 NAME IT: Musica
+0.0.0.0 NAME NL: Muziek
+0.0.0.0 NAME PT: Música
+0.0.0.0 NAME ES: Música
+0.0.0.0 NAME RU: Музыка
+0.0.0.0 
+0.0.0.0 NAME:   news
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites presenting news. Homepages from newspapers, magazines and journals as well as some blogs.
+0.0.0.0 DESC DE: Nachrichtenmagazine, Journale und einige Blogs.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Новостные ресурсы, домашние сайты газетов, журналов.
+0.0.0.0 NAME EN: News
+0.0.0.0 NAME DE: Nachrichten
+0.0.0.0 NAME FR: Nouvelles
+0.0.0.0 NAME IT: Notizie
+0.0.0.0 NAME NL: Nieuws
+0.0.0.0 NAME PT: Notícia
+0.0.0.0 NAME ES: Noticias
+0.0.0.0 NAME RU: Новости
+0.0.0.0 
+0.0.0.0 NAME:   podcasts
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering podcasts or podcast services, includes audio books.
+0.0.0.0 DESC DE: Seiten mit podcasts oder Podcast Angeboten; beinhaltet auch Hörbücher.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Подкаст-терминалы, ресурсы для создания подкастов.
+0.0.0.0 NAME EN: Podcasts
+0.0.0.0 NAME DE: Podcasts
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Podcasts
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES: 
+0.0.0.0 NAME RU: Подкаст
+0.0.0.0 
+0.0.0.0 NAME:   politics
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of political parties, political organisations and associations; sites with political discussions.
+0.0.0.0 DESC DE: Seiten politischer Parteien und politischer Organisationen; Seiten mit politischen Diskussionen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты политических партий, организаций и ассоциаций, обсуждения политических тем.
+0.0.0.0 NAME EN: Politics
+0.0.0.0 NAME DE: Politik
+0.0.0.0 NAME FR: La politique
+0.0.0.0 NAME IT: Politica
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT: Política
+0.0.0.0 NAME ES: Política
+0.0.0.0 NAME RU: Политика
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 NAME:   porn
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about all kinds of sexual content ranging from bare bosoms to hardcore porn and sm.
+0.0.0.0 DESC DE: Seiten mit erotischem und pornographischem Inhalt.
+0.0.0.0 DESC FR: Des sites adultes allant de l'érotique à la pornographie dure.
+0.0.0.0 DESC RU: Сайты любого сексуального содержания, попадающие под порнографию.
+0.0.0.0 NAME EN: Porn
+0.0.0.0 NAME DE: Pornographie
+0.0.0.0 NAME FR: Adulte
+0.0.0.0 NAME IT: Siti per Adulti
+0.0.0.0 NAME NL: 18+
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Порнография
+0.0.0.0 
+0.0.0.0 NAME:   radiotv
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Domains and urls of TV and radio stations.
+0.0.0.0 DESC DE: Domänen und URLs von Radio- und Fernsehstationen.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты телевизионных и радиостанций.
+0.0.0.0 NAME EN: Radio and TV
+0.0.0.0 NAME DE: TV und Radio
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Radio e TV
+0.0.0.0 NAME NL: 
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Радио-ТВ
+0.0.0.0 
+0.0.0.0 NAME:   recreation/humor
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Humorous pages, comic strips, funny stories, everything which makes people laugh.
+0.0.0.0 DESC DE: Alles, was zum Schmunzlen und Lachen bringt.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты с анекдотами, забавными историями, и т.д.
+0.0.0.0 NAME EN: Recreation/Humor
+0.0.0.0 NAME DE: Entspannung/Humor
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Ricreativi/Comici
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Юмор
+0.0.0.0 
+0.0.0.0 NAME:   recreation/martialarts
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites dedicated to martial arts such as: karate, kung fu, taek won do as well as fighting sports sites like ufc.
+0.0.0.0 DESC DE: Seiten über alle Arten von Kampfsport, z.B. Kung-Fu, Taek Won Do, Karate, aber auch Kick-Boxen und ähnliches.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о боевом искусстве: каратэ, кунг-фу, теквондо; спортивные единоборства.
+0.0.0.0 NAME EN: Recreation/Martialarts
+0.0.0.0 NAME DE: Entspannung/Kampfsport
+0.0.0.0 NAME FR: Récréation/Arts Martiaux
+0.0.0.0 NAME IT: Ricreativi/Arti Marziali
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Боевое искусство
+0.0.0.0 
+0.0.0.0 NAME:   recreation/restaurants
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of restaurants as well as restaurant descriptions and commentaries.
+0.0.0.0 DESC DE: Seiten von Restaurant, Restaurantbeschreibungen und -rezensionen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Домашние сайты ресторанов, описание и обсуждение ресторанов.
+0.0.0.0 NAME EN: Recreation/Restaurants
+0.0.0.0 NAME DE: Entspannung/Restaurants
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Ricreativi/Ristoranti
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Рестораны
+0.0.0.0 
+0.0.0.0 NAME:   recreation/sports
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: All about sports: sports teams, sport discussions as well as information about sports people and the various sports themselves.
+0.0.0.0 DESC DE:
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты с различной информацией о спорте, спортивных командах, соревнованиях и т.д.
+0.0.0.0 NAME EN: Recreation/Sports
+0.0.0.0 NAME DE: Entspannung/Sport
+0.0.0.0 NAME FR: Récréation/Sports
+0.0.0.0 NAME IT: Ricreativi/Sport
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Спорт
+0.0.0.0 
+0.0.0.0 NAME:   recreation/travel
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites with information about foreign countries, travel companies, travel fares, accommodations and everything else that has to do with travel.
+0.0.0.0 DESC DE: Reiseveranstalter, Reisebeschreibungen, Hotels, Buchungen, Fluggesellschaften, Bahn und ähnliches: alles, was man zum Reisen wissen muss oder möchte.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о зарубежных странах, туристических компаниях, путевках, гостиницах. Все, что связано с путешествием.
+0.0.0.0 NAME EN: Recreation/Travel
+0.0.0.0 NAME DE: Entspannung/Reisen
+0.0.0.0 NAME FR: Récréation/Voyage
+0.0.0.0 NAME IT: Ricreativi/Viaggi
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Путешествие
+0.0.0.0 
+0.0.0.0 NAME:   recreation/wellness
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about treatments for feeling internally and externally healthy and beautiful again.
+0.0.0.0 DESC DE: Wellness: Alles, was Körper und Seele gut tut.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты о здоровье, самочувствии, санитарии и т.д.
+0.0.0.0 NAME EN: Recreation/Wellness
+0.0.0.0 NAME DE: Entspannung/Wellness
+0.0.0.0 NAME FR: Récréation/Santé
+0.0.0.0 NAME IT: Ricreativi/Salute
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Отдых/Здоровье
+0.0.0.0 
+0.0.0.0 NAME:   redirector
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that actively help to bypass url filters by accepting urls via form and play a proxing and redirecting role.
+0.0.0.0 DESC DE: Seiten mit Proxydiensten, die eine aktive Umgehung des URL Filters erlauben.
+0.0.0.0 DESC FR: Quelques sites qui permettent de contourner les filtres.
+0.0.0.0 DESC RU: Ресурсы, позволяющие обходить ограничения доступа в интернет, перенаправление трафика.
+0.0.0.0 NAME EN: Proxy
+0.0.0.0 NAME DE: Proxy
+0.0.0.0 NAME FR: Proxy
+0.0.0.0 NAME IT: Proxy
+0.0.0.0 NAME NL: Proxy
+0.0.0.0 NAME PT: Proxy
+0.0.0.0 NAME ES: Proxy
+0.0.0.0 NAME RU: Прокси
+0.0.0.0 
+0.0.0.0 NAME:   religion
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites with religious content: all kind of churches, sects, religious interpretations, etc.
+0.0.0.0 DESC DE: Seiten mit religiösem Inhalt: Jegliche Art von Kirchen, Sekten, religiöse Interpretationen usw.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Сайты религиозного характера: различные церкви, секты, религиозные толкования и др.
+0.0.0.0 NAME EN: Religion
+0.0.0.0 NAME DE: Religion
+0.0.0.0 NAME FR: Religion
+0.0.0.0 NAME IT: Religione
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT: 
+0.0.0.0 NAME ES: 
+0.0.0.0 NAME RU: Религия
+0.0.0.0 
+0.0.0.0 NAME:   remotecontrol
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering the service to remotely access computers, especially (but not limited to going) through firewalls. This does not cover traditional VPN.
+0.0.0.0 DESC DE: Seiten mit Diensten, die es ermöglichen, an entfernten Rechnern zu arbeiten (auch aber nicht nur durch Firewall durch). Normales, traditionelle VPN Zugänge werden nicht betrachtet.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, позволяющие получить удаленное управление компьютерами, в том числе минуя брэндмауэры, не используя стандартные виды VPN-подключений.
+0.0.0.0 NAME EN: Remote Control
+0.0.0.0 NAME DE: Fernkontrolle
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Controllo Remoto
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Удаленное управление
+0.0.0.0 
+0.0.0.0 NAME:   ringtones
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that offer the download of ringtones or present other information about ringtones.
+0.0.0.0 DESC DE: Informationen zu und Laden von Klingeltönen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, содержащие различные звуковые файлы для мобильных телефонов в качестве звонка, а также другая информация о рингтонах
+0.0.0.0 NAME EN: Ringtones
+0.0.0.0 NAME DE: Klingeltöne
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Suonerie
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Рингтоны
+0.0.0.0 
+0.0.0.0 NAME:   science/astronomy
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of institutions as well as of amateurs about all topics of astronomy.
+0.0.0.0 DESC DE: Astronomie und Astrophysik sowohl aus dem Amateur- wie auch aus dem professionellen Umfeld.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Научные и любительские ресурсы об астрономии.
+0.0.0.0 NAME EN: Science/Astronomy
+0.0.0.0 NAME DE: Wissenschaft/Astronomie
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Scienza/Astronomia
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Наука/Астрономия
+0.0.0.0 
+0.0.0.0 NAME:   science/chemistry
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites of institutions as well as of amateurs about all topics of chemistry.
+0.0.0.0 DESC DE: Rund um die Wissenschaft Chemie: Institutionen und Lehrhaftes.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Научные и любительские ресурсы о химии.
+0.0.0.0 NAME EN: Science/Chemistry
+0.0.0.0 NAME DE: Wissenschaft/Chemie
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Scienza/Chimica
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Наука/Химия
+0.0.0.0 
+0.0.0.0 NAME:   searchengines
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Collection of search engines and directory sites.
+0.0.0.0 DESC DE: Suchmaschinen und Verzeichnisseiten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты поисковых систем, например yandex, google и др.
+0.0.0.0 NAME EN: Searchengines
+0.0.0.0 NAME DE: Suchmaschinen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Motori di Ricerca
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Поисковые системы
+0.0.0.0 
+0.0.0.0 NAME:   sex/lingerie
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites selling and presenting sexy lingerie.
+0.0.0.0 DESC DE: Seiten, auf denen Reizwäsche präsnetiert und angeboten wird.
+0.0.0.0 DESC FR: Sites de sexy dessous.
+0.0.0.0 DESC RU: Продажа сексуального женского белья.
+0.0.0.0 NAME EN: Sex/Lingerie.
+0.0.0.0 NAME DE: Sex/Reizwäsche.
+0.0.0.0 NAME FR: Sex/Dessous.
+0.0.0.0 NAME IT: Intimo
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES: Sex/Lenceria.
+0.0.0.0 NAME RU: Секс/Белье
+0.0.0.0 
+0.0.0.0 NAME:   sex/education
+0.0.0.0 DEFAULT_TYPE: black or white
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites explaining the biological functions of the body concerning sexuality as well as sexual health.
+0.0.0.0 DESC DE: Seiten mit Erklärungen zur Sexualität und sexueller Gesundheit.
+0.0.0.0 DESC FR: 
+0.0.0.0 DESC RU: Описание биологических функций относительно сексуальности тела, сексуальное здоровье.
+0.0.0.0 NAME EN: Sex/Education.
+0.0.0.0 NAME DE: Sex/Sexualkunde.
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: Educazione Sessuale
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES: 
+0.0.0.0 NAME RU: Секс/Образование
+0.0.0.0 
+0.0.0.0 NAME:   shopping
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering online shopping and price comparisons.
+0.0.0.0 DESC DE: Seiten für Käufe via Internet und Preisvergleiche.
+0.0.0.0 DESC FR: Sites de vente et achat en ligne.
+0.0.0.0 DESC RU: Ресурсы по продаже товаров в режиме онлайн, сравнение цен, шопинг.
+0.0.0.0 NAME EN: Shopping
+0.0.0.0 NAME DE: Einkaufen
+0.0.0.0 NAME FR: Shopping
+0.0.0.0 NAME IT: Shopping
+0.0.0.0 NAME NL: Shopping
+0.0.0.0 NAME PT: Shopping
+0.0.0.0 NAME ES: Shopping
+0.0.0.0 NAME RU: Покупка товаров
+0.0.0.0 
+0.0.0.0 NAME:   socialnet
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites bringing people together (social networking) be it for friendship or for business.
+0.0.0.0 DESC DE:
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты, объединяющие людей для дружбы или бизнеса, социальные сети.
+0.0.0.0 NAME EN: Social Networking
+0.0.0.0 NAME DE: Social Networking
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Social Network
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Социальные сети
+0.0.0.0 
+0.0.0.0 NAME:   spyware
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that try to actively install software or lure the user in doing so in order to spy the surfing behaviour (or worse). The home calling sites where the collected information is sent, are listed too.
+0.0.0.0 DESC DE:
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, откуда происходит попытка установки нежелательных программ без ведома пользователей, установка вместо ожидаемых опасных программ обманным путем.
+0.0.0.0 NAME EN: Spyware
+0.0.0.0 NAME DE: Spyware
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Spyware
+0.0.0.0 NAME NL: Spyware
+0.0.0.0 NAME PT: Spyware
+0.0.0.0 NAME ES: Spyware
+0.0.0.0 NAME RU: Шпионское ПО
+0.0.0.0 
+0.0.0.0 NAME:   tracker
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites keeping an eye on where you surf and what you do in a passive manner. Covers web bugs, counters and other tracking mechanisms in web pages that do not interfere with the local computer yet collect information about the surfing person for later analysis.
+0.0.0.0 DESC DE: Passives Ausspähen des Benutzerverhaltens. Beinhaltet tracking cookies, web bugs, Zähler u.ä., die in Webseiten zur Analyse der Benutzerverhaltens untergebracht sind.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, отслеживающие посещения сайтов и других действий в невидимом режиме. Используются уязвимости сайтов, счетчики посещений и другие механизмы, не требующие вмешательства в компьютер, для последующего анализа.
+0.0.0.0 NAME EN: Tracker
+0.0.0.0 NAME DE: Tracker
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Tracker
+0.0.0.0 NAME NL: Tracker
+0.0.0.0 NAME PT: Tracker
+0.0.0.0 NAME ES: Tracker
+0.0.0.0 NAME RU: Система слежения
+0.0.0.0 
+0.0.0.0 NAME:   updatesites
+0.0.0.0 DEFAULT_TYPE: white
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: List to allow necessary downloads from vendors.
+0.0.0.0 DESC DE: Herstellerseiten für Software Aktualisierungen.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Разрешенные ресурсы, для обновления ПО от производителей.
+0.0.0.0 NAME EN: Update Sites
+0.0.0.0 NAME DE: Software Aktualisierungen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Siti di Aggiornamento
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Обновление ПО
+0.0.0.0 
+0.0.0.0 NAME:   urlshortener
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering short links for URLs. 
+0.0.0.0 DESC DE: Dom?nen, die das Erzeugen von Kurz-URLs aus normalen URLs erm?glichen. 
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: 
+0.0.0.0 NAME EN: URL shortener
+0.0.0.0 NAME DE: Kurz-URLs
+0.0.0.0 NAME FR: 
+0.0.0.0 NAME IT: 
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 NAME:   violence
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites about killing and harming people. Covers anything about brutality and beastiality.
+0.0.0.0 DESC DE: Gewalt und Gewaltverherrlichung. Beinhaltet Darstellungen des gewaltsamen Todes von Menschen, wie man anderen Schaden zufügt, Brutalität und Bestialität.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Сайты об убийствах, нанесению вреда человеку. Все, что связано с жестокостью и грубостью.
+0.0.0.0 NAME EN: Violence
+0.0.0.0 NAME DE: Gewalt
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Violenza
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Насилие
+0.0.0.0 
+0.0.0.0 NAME:   warez
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Collection of sites offering programs to break licence keys, licence keys themselves, cracked software and other copyrighted material.
+0.0.0.0 DESC DE: Seiten, die geknackte Passworte und Lizenzen kopiergeschützter Programme anbieten sowie das Laden kopiergeschützten Daten und Programme.
+0.0.0.0 DESC FR: Sites de logiciels pirates.
+0.0.0.0 DESC RU: Ресурсы, содержащие программы для взлома лицензии, серийные коды к программам, взломанное программное обеспечение и другие нелицензионные данные.
+0.0.0.0 NAME EN: Warez
+0.0.0.0 NAME DE: Warez
+0.0.0.0 NAME FR: Warez
+0.0.0.0 NAME IT: Warez
+0.0.0.0 NAME NL: Warez
+0.0.0.0 NAME PT: Warez
+0.0.0.0 NAME ES: Warez
+0.0.0.0 NAME RU: Нелегальное ПО
+0.0.0.0 
+0.0.0.0 NAME:   weapons
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering all kinds of weapons or accessories for weapons: Firearms, knifes, swords, bows, etc. Armory shops are included as well as sites holding general information about arms (manufacturing, usage).
+0.0.0.0 DESC DE: Waffen und Zubehör. Seiten, die Funktionsweise und den Umgang mit Waffen erklären sowie Hersteller.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, предлагающие оружие и различные аксессуары к нему: огнестрельное оружие, ножи, мечи, луки и др. Информация об оружейных магазинах, заводах, производителях и использовании оружия.
+0.0.0.0 NAME EN: Weapons
+0.0.0.0 NAME DE: Waffen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Armi
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Оружие
+0.0.0.0 
+0.0.0.0 NAME:   webmail
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that offer web-based email services.
+0.0.0.0 DESC DE: Seiten die web-basierte E-Mail Dienste anbieten.
+0.0.0.0 DESC FR: Webmail que l'on trouve sur internet (hotmail, webmail.univ-tlse1.fr, etc.)
+0.0.0.0 DESC RU: Сайты почтовых систем с доступом через браузеры.
+0.0.0.0 NAME EN: Webmail
+0.0.0.0 NAME DE: Webmail
+0.0.0.0 NAME FR: Messagerie Web
+0.0.0.0 NAME IT: Webmail
+0.0.0.0 NAME NL: Webmail
+0.0.0.0 NAME PT: Webmail
+0.0.0.0 NAME ES: Webmail
+0.0.0.0 NAME RU: Интернет-почта
+0.0.0.0 
+0.0.0.0 NAME:   webphone
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that enable user to phone via the Internet. Any site where users can voice-chat with each other.
+0.0.0.0 DESC DE: Seiten, die Internet Telephonie, speziell, aber nicht nur http basiert, anbieten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, позволяющие испольозвать телефонию через интернет, а также различные сайты, где возможно голосовое общение.
+0.0.0.0 NAME EN: Internet Phone
+0.0.0.0 NAME DE: Internet Telephonie
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Telefonia su Internet
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Интернет-телефония
+0.0.0.0 
+0.0.0.0 NAME:   webradio
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites that offer listening to music and radio live streams.
+0.0.0.0 DESC DE: Seiten mit Internet Radio und Audio Live Streams.
+0.0.0.0 DESC FR: Sites de radio sur Internet
+0.0.0.0 DESC RU: Ресурсы, позволяющие в реальном времени слушать музыкальные и радиопередачи.
+0.0.0.0 NAME EN: Internet radios
+0.0.0.0 NAME DE: Internet Radio
+0.0.0.0 NAME FR: Radio internet
+0.0.0.0 NAME IT: Internet Radio
+0.0.0.0 NAME NL: Internet radios
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Интернет-радио
+0.0.0.0 
+0.0.0.0 NAME:   webtv
+0.0.0.0 DEFAULT_TYPE: black
+0.0.0.0 SOURCE: http://www.shallalist.de/Downloads/shallalist.tar.gz
+0.0.0.0 DESC EN: Sites offering TV streams via Internet.
+0.0.0.0 DESC DE: Seiten, die Fernsehen per WWW anbieten.
+0.0.0.0 DESC FR:
+0.0.0.0 DESC RU: Ресурсы, позволяющие в реальном времени просматривать телевизионные передачи.
+0.0.0.0 NAME EN: Web TV, Internet TV
+0.0.0.0 NAME DE: Internet Fernsehen
+0.0.0.0 NAME FR:
+0.0.0.0 NAME IT: Internet TV
+0.0.0.0 NAME NL:
+0.0.0.0 NAME PT:
+0.0.0.0 NAME ES:
+0.0.0.0 NAME RU: Интернет-телевидение
+0.0.0.0 
